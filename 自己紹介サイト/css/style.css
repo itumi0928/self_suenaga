@@ -1,0 +1,52 @@
+@charset "UTF-8";
+header{
+  text-align: center;
+}
+
+body {
+    background-color: #c6feff;
+    font-family: sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h2 {
+    color: navy;
+    border-bottom: 2px solid lightblue;
+}
+
+h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.5;
+}
