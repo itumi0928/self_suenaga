@@ -1,19 +1,22 @@
-@charset "UTF-8";
-header{
-  text-align: center;
-}
-
 body {
     background-color: #c1f2ff;
+    margin: 0;
+}
+
+header {
+    text-align: center;
 }
 
 main {
     width: 80%;
+    max-width: 800px;
     margin: 20px auto;
 }
 
 section {
-    background-color: #ffffff;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
     margin-bottom: 20px;
     padding: 15px;
 }
@@ -21,6 +24,7 @@ section {
 h2 {
     color: navy;
     border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
 }
 
 h3 {
@@ -37,7 +41,8 @@ li {
 }
 
 a {
-    color: blue;
+    color: #0066cc;
+    font-weight: bold;
     text-decoration: none;
 }
 
